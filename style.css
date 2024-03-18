@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-image: url(colegiotomaz.jpg);
+    width: 1349px;
+    height: 145px;
+}
+
+.cabecalho-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;    
+}
+
+.cabecalho-links-link {
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 2px #000;
+    border-radius: 5px;
+    padding: 2px 4px;
+    background-color: #000;
+    font-weight: bold;
+}
+
+.principal-secao {
+    display: flex;
+    width: 1190px;
+    flex-direction: column;
+    float: inline-end;
+    align-items: center;
+    padding: 5px;
+}
+
+#principal-titulo {
+    padding: 10px 0;
+}
+
+.principal-paragrafo {
+    text-align: justify;   
+}
+
+.menu-lateral {
+    /* background-color: #404040; */
+    width: 150px;
+    height: 382px;
+}
+
+.menu-lateral-lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 0 0;
+    border: solid 2px #000;
+    height: 330px;
+}
+
+.menu-lateral-lista-itens {
+    padding: 15px 0 25px 10px;
+    text-align: center;
+    text-decoration: underline;
+    color: #25ad78;
+}
+
+.rodape {
+    display: flex;
+    /* background-color: #6063a7; */
+    width: 1345px;
+    height: 75px;
+    border: solid 2px #000;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.rodape-texto {
+    font-size: 18px;
+    font-weight: bold;
+       
+}
+
+span {
+    content: '\\00AE';
+}
+
+.rodape-links {
+    text-decoration: none;
+    border: solid 2px #4d4a61;
+    color: #000;
+    background-color: #dddaf5;
+    font-weight: bold;
+}
